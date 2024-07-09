@@ -30,6 +30,12 @@ public:
         }
     }
     
+    int getVertices(){
+        return v;
+    }
 
+    vector<int> getAdjList(int v){
+        return adjList[v];
+    }
 };    
 #endif
